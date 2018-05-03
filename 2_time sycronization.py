@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  3 20:07:07 2018
-
-@author: Inki Kim's lab
+Sycronize time for each trial
 """
 
 import os
 import pandas as pd
 
 
-timesycronization = pd.read_csv('C:\\Users\\Inki Kim\'s lab\\Documents\\GitHub\\SMI-Eye-Tracking-Data-Analysis\\time syncronization.csv')
+timesycronization = pd.read_csv('YOUR \\PATH\\TO \\SMI-Eye-Tracking-Data-Analysis\\time syncronization.csv')
 
-os.chdir('C:\\Users\\Inki Kim\'s lab\\Documents\\GitHub\\SMI-Eye-Tracking-Data-Analysis\\2.Exported trials\\')
+os.chdir('YOUR \\PATH\\TO\\SMI-Eye-Tracking-Data-Analysis\\2.Exported trials\\')
 
-outputpath = 'C:\\Users\\Inki Kim\'s lab\\Documents\\GitHub\\SMI-Eye-Tracking-Data-Analysis\\3.Sycronized data\\'
+outputpath = 'YOUR \\PATH\\TO\\SMI-Eye-Tracking-Data-Analysis\\3.Sycronized data\\'
 
 for file in os.listdir():
     df = pd.read_csv(file)
