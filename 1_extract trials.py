@@ -8,9 +8,9 @@ import pandas as pd
 import numpy as np
 
 
-os.chdir('C:\\Users\\Inki Kim\'s lab\\Documents\\GitHub\\SMI-Eye-Tracking-Data-Analysis\\1.Raw txt data\\')
+os.chdir('YOUR\\PATH\\TO \\SMI-Eye-Tracking-Data-Analysis\\1.Raw txt data\\')
 
-outputpath = 'C:\\Users\\Inki Kim\'s lab\\Documents\\GitHub\\SMI-Eye-Tracking-Data-Analysis\\2.Exported trials\\'
+outputpath = 'YOUR\\PATH\\TO \\SMI-Eye-Tracking-Data-Analysis\\2.Exported trials\\'
 
 for file in os.listdir():
     df = pd.read_table(file)
