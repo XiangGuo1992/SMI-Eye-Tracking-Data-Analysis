@@ -15,5 +15,8 @@ This script is to extract different trials from the the .txt Raw data, and save 
 ## 2_time sycronization.py
 This script collects the start&end time from "time syncronization.csv" and slice the section for each .csv file in "2.Exported trials" and save to "3.Sycronized data" folder.
 
+## 3_Converge subjects result.py
+This script will converge the results from the same subject to one .csv file.
+
 ## To be done
 How to analyze gaze vector, gaze behavior in Aeras-Of_Interests(AOIs).
